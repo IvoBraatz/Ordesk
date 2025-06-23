@@ -1,4 +1,4 @@
-# 🏢 ordex - Sistema de Gestão de Ordens de Serviço
+# 🏢 Ordesk - Sistema de Gestão de Ordens de Serviço
 
 <div align="center">
 
@@ -32,7 +32,7 @@
 
 ## ✨ Sobre o Projeto
 
-O **Ordex** é um sistema completo de gestão de ordens de serviço desenvolvido com Vue.js 3 e Node.js. O sistema oferece uma interface moderna e intuitiva para gerenciar ordens de trabalho, clientes, serviços e usuários, com funcionalidades avançadas como sistema de prioridades, dashboard em tempo real e controle de acesso baseado em roles.
+O **Ordesk** é um sistema completo de gestão de ordens de serviço desenvolvido com Vue.js 3 e Node.js. O sistema oferece uma interface moderna e intuitiva para gerenciar ordens de trabalho, clientes, serviços e usuários, com funcionalidades avançadas como sistema de prioridades, dashboard em tempo real e controle de acesso baseado em roles.
 
 ### 🎯 Principais Características
 
@@ -120,8 +120,8 @@ O **Ordex** é um sistema completo de gestão de ordens de serviço desenvolvido
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/ivobraatz/ordex.git
-cd ordex
+git clone https://github.com/ivobraatz/Ordesk.git
+cd Ordesk
 ```
 
 ### 2. Instale as dependências
@@ -136,7 +136,7 @@ npm install --prefix backend
 ### 3. Configure o banco de dados
 ```sql
 -- Crie um banco de dados MySQL
-CREATE DATABASE ordex;
+CREATE DATABASE Ordesk;
 
 -- Execute os scripts de criação das tabelas
 -- (consulte a documentação do banco de dados)
@@ -176,7 +176,7 @@ BASE_URL=http://localhost:3000
 DB_HOST=localhost
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
-DB_NAME=ordex
+DB_NAME=Ordesk
 DB_PORT=3306
 
 # Configurações JWT
@@ -192,7 +192,7 @@ VITE_API_URL=http://localhost:3000
 O sistema utiliza MySQL. Certifique-se de que:
 
 1. O MySQL está instalado e rodando
-2. O banco de dados `ordex` foi criado
+2. O banco de dados `Ordesk` foi criado
 3. As tabelas necessárias foram criadas
 4. As credenciais no `.env` estão corretas
 
@@ -226,7 +226,7 @@ O sistema utiliza MySQL. Certifique-se de que:
 ## 🏗️ Estrutura do Projeto
 
 ```
-ordex/
+Ordesk/
 ├── 📁 backend/                 # Servidor Node.js
 │   ├── 📁 src/
 │   │   ├── 📁 config/         # Configurações do banco
@@ -303,7 +303,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Se você encontrou algum problema ou tem alguma sugestão:
 
 - 📧 **Email**: seu-email@exemplo.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/ivobraatz/ordex/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/ivobraatz/Ordesk/issues)
 - 💬 **Discord**: [Link do Discord]
 
 ---
@@ -312,6 +312,6 @@ Se você encontrou algum problema ou tem alguma sugestão:
 
 **Desenvolvido com ❤️ por Ivo**
 
-[⬆️ Voltar ao topo](#ordex---sistema-de-gestão-de-ordens-de-serviço)
+[⬆️ Voltar ao topo](#Ordesk---sistema-de-gestão-de-ordens-de-serviço)
 
 </div>
