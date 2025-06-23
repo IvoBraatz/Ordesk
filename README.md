@@ -302,7 +302,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Se você encontrou algum problema ou tem alguma sugestão:
 
-- 📧 **Email**: seu-email@exemplo.com
+- 📧 **Email**: braatzivo@hotmail.com
 - 🐛 **Issues**: [GitHub Issues](https://github.com/ivobraatz/Ordesk/issues)
 - 💬 **Discord**: [Link do Discord]
 
