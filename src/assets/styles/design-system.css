@@ -1,0 +1,95 @@
+:root {
+  /* 🌓 MODO CLARO (PADRÃO) */
+
+  /* Fundos */
+  --color-background-base: #F3F7FA;
+  --color-background-component: #FFFFFF;
+
+  /* Textos */
+  --color-text-primary: #181C32;
+  --color-text-secondary: #5A6270;
+  --color-text-highlight: #1A73E8;
+
+  /* Bordas */
+  --color-border: #B6C2D9;
+
+  /* Botões */
+  --color-button-create: #22C55E;   /* Verde vivo */
+  --color-button-update: #2563EB;   /* Azul vivo */
+  --color-button-delete: #EF4444;   /* Vermelho vivo */
+
+  /* Prioridades */
+  --color-priority-urgent: #E11D48;   /* Vermelho intenso */
+  --color-priority-high: #F59E42;     /* Laranja vibrante */
+  --color-priority-medium: #FACC15;   /* Amarelo vivo */
+  --color-priority-low: #10B981;      /* Verde água */
+
+  /* Extras */
+  --color-icon: #64748B;
+  --shadow-card: 0 4px 16px rgba(37, 99, 235, 0.08);
+
+  /* --- VARIÁVEIS ADICIONAIS PARA CONSISTÊNCIA --- */
+
+  /* Espaçamento (Sistema 8pt) */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Tipografia */
+  --font-family-base: 'Inter', sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Bordas */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+}
+
+[data-theme='dark'] {
+  /* 🌒 MODO ESCURO */
+
+  /* Fundos */
+  --color-background-base: #181A20;
+  --color-background-component: #23272F;
+
+  /* Textos */
+  --color-text-primary: #F3F6FB;
+  --color-text-secondary: #A3AED0;
+  --color-text-highlight: #60A5FA;
+
+  /* Bordas */
+  --color-border: #334155;
+
+  /* Botões */
+  --color-button-create: #4ADE80;
+  --color-button-update: #60A5FA;
+  --color-button-delete: #F87171;
+
+  /* Prioridades */
+  --color-priority-urgent: #FB7185;
+  --color-priority-high: #FDBA74;
+  --color-priority-medium: #FDE047;
+  --color-priority-low: #34D399;
+
+  /* Extras */
+  --color-icon: #A3AED0;
+  --shadow-card: 0 6px 18px rgba(16,185,129,0.10);
+}
+
+/* Reset básico e estilos globais */
+body {
+  background-color: var(--color-background-base);
+  color: var(--color-text-primary);
+  font-family: var(--font-family-base);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  scrollbar-width: none;
+}
+
+html{
+  scrollbar-width: none;
+}
