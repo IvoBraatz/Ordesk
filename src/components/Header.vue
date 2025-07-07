@@ -6,7 +6,7 @@
           <LucideMenu />
         </button>
         <div class="top-bar__brand" @click="$router.push('/')">
-          PATERNOLLI
+          Ordesk
         </div>
       </div>
 

@@ -3,7 +3,7 @@
   <div class="login-wrapper">
     <div class="login-card" role="main">
       <header class="login-header">
-        <h1 class="login-title">PATERNOLLI</h1>
+        <h1 class="login-title">Ordesk</h1>
         <p class="login-subtitle">Acesse sua conta para continuar</p>
       </header>
 

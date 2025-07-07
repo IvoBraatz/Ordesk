@@ -6,7 +6,7 @@
                 <LucideMenu class="icon" />
             </button>
 
-            <div class="top-bar__brand">PATERNOLLI</div>
+            <div class="top-bar__brand">Ordesk</div>
 
             <div class="top-bar__actions">
                 <div class="top-bar__time" aria-live="polite">
